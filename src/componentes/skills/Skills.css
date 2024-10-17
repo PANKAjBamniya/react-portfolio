@@ -1,0 +1,87 @@
+.skills{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    /* background-color: red; */
+}
+.skills h2{
+    font-size: 3.4em;
+    text-transform: uppercase;
+    filter: drop-shadow(0 0 15px crimson);
+}
+.skills-container{
+    width: 90%;
+    height: auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.skills-card{
+    /* width: 30%; */
+    background-color: #CD976A;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: .2;
+}
+.skills-card:hover{
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.1);
+}
+.html-icon{
+    font-size: 10em;
+    /* color:linear-gradient(to left,yellow, orange) ; */
+    color: rgb(255, 195, 84);
+    filter: drop-shadow(0 0 10px black);
+}
+.css-icon{
+    font-size: 10em;
+    color: rgb(84, 132, 255);
+    filter: drop-shadow(0 0 10px black);
+}
+.tail-icon{
+    font-size: 10em;
+    color: rgb(0, 33, 116);
+    filter: drop-shadow(0 0 10px black);
+}
+.boot-icon{
+    font-size: 10em;
+    color: rgb(127, 18, 244);
+    filter: drop-shadow(0 0 10px black);
+}
+.js-icon{
+    font-size: 10em;
+    color: rgb(240, 244, 18);
+    /* border-radius: 30px; */
+    filter: drop-shadow(0 0 10px black);
+}
+.react-icon{
+    font-size: 10em;
+    color: rgb(0, 242, 255);
+    /* border-radius: 30px; */
+    filter: drop-shadow(0 0 10px black);
+}
+.next-icon{
+    font-size: 10em;
+    color: rgb(118, 116, 116);
+    /* border-radius: 30px; */
+    filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+}
+
+.mg-icon{
+    font-size: 10em;
+    color: rgb(31, 227, 37);
+    /* border-radius: 30px; */
+    filter: drop-shadow(0 0 10px rgb(24, 18, 18));
+}
